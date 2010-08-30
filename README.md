@@ -10,7 +10,7 @@ Install
 Usage
 -----
 
-  b [options]
+    b [options]
 
     Options:
       list ls l
