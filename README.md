@@ -5,6 +5,7 @@ Simple CLI dir bookmark script
 Install
 -------
   curl http://github.com/bkrsta/lastdir/raw/master/lastdir.rb > ~/bin/b
+  touch ~/lastdir.txt
 
 Usage
 -----
@@ -16,6 +17,17 @@ Usage
     remove rm delete del r
     add a
     separator sep s
+
+Example
+-------
+  $ cd /very/long/path/to/my/project
+  $ b a  #adds
+  $ cd /go/to/another/dir
+  $ b a
+  $ b l
+    /very/long/path/to/my/project
+    /go/to/another/dir
+
 
 License
 -------
