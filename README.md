@@ -21,7 +21,8 @@ Usage
 Example
 -------
     $ cd /very/long/path/to/my/project
-    $ b a  #adds
+    $ b a  # add current working dir to ~/lastdir.txt
+    $ b s  # add separator
     $ cd /go/to/another/dir
     $ b a
     $ b l
