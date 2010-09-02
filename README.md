@@ -27,6 +27,7 @@ Example
     $ b a
     $ b l
       /very/long/path/to/my/project
+      ----
       /go/to/another/dir
 
 
